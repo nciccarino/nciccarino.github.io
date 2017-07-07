@@ -1,0 +1,152 @@
+body {
+	background-image: url("../../whirlpool.png");
+}
+
+.navbar-header {
+	background: #4aaaa5;
+	color: white;
+	padding: 10px;
+}
+
+ul li{
+	color: #ccc;
+	border-right: 1px solid #ccc;
+}
+
+#container {
+	font-family: sans-serif;
+}
+
+#container-left {
+	background-color: white;
+	width: 650px;
+}
+
+#title {
+	color: #4aaaa5;
+	padding:15px;
+	border-bottom: 1px solid #ccc;
+	background-color: white;
+}
+
+#prof {
+	display: inline;
+	float: left;
+}
+
+#bio-image {
+	width: 200px;
+	height: 300px;
+	padding: 10px;
+	float: left;
+}
+
+#bio {
+	display: inline;
+}
+
+p {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#container-right {
+	background-color: white;
+	width: 270px;
+	margin-left: 40px;
+	text-align: center;
+}
+
+
+#github {
+	
+	padding-left: 5px;
+	display: inline-block;
+	width: 60px;
+}
+
+#linkedin {
+	margin: 5px;
+	padding-left: 5px;
+	display: inline-block;
+	width: 60px;
+}
+
+#stackoverflow {
+	margin: 5px;
+	padding-left:5px;
+	display: inline-block;
+	width: 60px;
+	padding-right: 5px;
+}
+
+main {
+	overflow: auto;
+}
+
+#footer {
+    margin-top: 2%; 
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+    background-color: #5f5d5d;
+    padding: 20px;
+    border-top: 5px solid #4aaaa5;
+    right: 0;
+  	left: 0;
+  	position: absolute;
+}
+
+#line {
+	color: #eee;
+}
+
+#psychic {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#newsIcon {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#USmap {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#SHPirates {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#USHoR {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#starWars {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#form {
+	color: darkgrey;
+	font-family: sans-serif;
+}
+
+#button {
+	background: #4aaaa5;
+	color: white;
+	border: none;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
