@@ -1,0 +1,128 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+  margin-left: 10%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.nav-wrapper {
+  background-color: black; 
+}
+
+#sideCol {
+  background-color: white;
+}
+
+#sideColCollection {
+  border-width: 0px; 
+}
+
+#collectionItem {
+  background-color: #813772;
+  color: white;
+}
+
+#collectionItem:hover {
+  background-color: #bdbdbd;
+}
+
+#bio-image {
+  border-radius: 6px;
+}
+
+#footerContainer {
+  background-color: #062F4F;
+}
+
+#info {
+  background-color: white;
+}
+
+.bio {
+  display: block;
+}
+
+.skills {
+  display: none;
+}
+
+.work {
+  display: none;
+}
+
+#icon-logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 20px; 
+}
+
+#contact-button {
+  background-color: #813772;
+}
+
+#embers {
+  color: #B82601;
+}
+
+#portfolio-images {
+  width: 100%;
+}
+
+/*body {
+  background-color: #B82601;
+}*/

@@ -1,94 +1,277 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset= "UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	
-	<title>Nick Ciccarino</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Nick Ciccarino</title>
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
 
-	<nav class="navbar navbar-default">
-		<div class="container">
+  <!-- https://designschool.canva.com/blog/website-color-schemes/ -->
 
-			<div class="navbar-header">
-				<h1>Nick Ciccarino</h1>
-			</div>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Nick Ciccarino</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#footerContainer" class="waves-effect waves-light btn" id="contact-button">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-			<div id="navbar-list" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-		          <li><a href="index.html">About</a></li>
-		          <li><a href="portfolio.html">Portfolio</a></li>
-		          <li><a href="contact.html">Contact</a></li>
-		        </ul>
-			</div>
-		</div>
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="images/nyc2.jpg" alt="nyc"></div>
+  </div>
 
-	</nav>
-	
-	<main>
-	<div class ="container" id="container">
+  <div class="container">
+    <div class="section">
 
-    	<div class="row">
+          <!-- start -->
+      <div class="row">
+      
+        <div class="col s3" id="sideCol">
+          <img id="bio-image" class= "responsive-img" src="images/profilepic.jpg" alt= "Profile Pic">
+          <div class="collection" id="sideColCollection">
+            <a class="collection-item bio-button" id="collectionItem">About</a>
+            <a class="collection-item skills-button" id="collectionItem">Skills</a>
+            <a class="collection-item work-button" id="collectionItem">Previous Work</a>
+          </div>
+        </div>
 
-	    	<div class="col-sm-8" id="container-left">
-	   			
-	   			<h1 id="title">About Me</h1>
+        <div class="col s9" id= "rightCol">
+          <div class= "row">
+            <div class="container">
+              <div class="section">
+                <div class="row">
+                  <div class="col s12 left" id="info">
+                    <div class="bio">
+                      <h4 id="embers">About Me</h4>
+                      <hr>
+                      <p class="left-align light">New York City Area based Full Stack Web Developer</p>
+                      <p class="left-align light">I am currently seeking a full time web development position in the New York Tri-state area.</p>
+                      <p class="left-align light">In August of 2017, I graduated from Rutgers University's Rutgers Coding Bootcamp, A full time web development program.</p>
+                      <p class="left-align light">In May of 2016, I graduated from Seton Hall University with a B.S. in Diplomacy and International Relations, and minors in Economics and Spanish Language. </p>
+                      <p class="left-align light">I am a versatile full stack developer, with much experience using the MERN stack. Although I am a developer, much of my previous work experience has been in the public sector, or public policy focused.</p>
+                    </div>
+                    <div class="skills">
+                      <h4 id="embers">Technical Skills</h4>
+                      <p class="left-align light">The following lists include languages and technoligies that I have had direct experience with, and have implemented throughout my work.</p>
+                      <div class="row">
+                        <div class="col s4">
+                          <h5 id="embers">Browser Based Technologies</h5>
+                          <hr>
+                          <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>CSS Frameworks</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Handlebars</li>
+                            <li>React</li>
+                            <li>Local Storage</li>
+                          </ul>
+                        </div>
+                        <div class="col s4">
+                          <h5 id="embers">Database and Server Side Development</h5>
+                          <hr>
+                          <ul>
+                            <li>Firebase</li>
+                            <li>MySQL</li>
+                            <li>Sequelize</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                            <li>Mongoose</li>
+                            <li>Passport JS</li>
+                          </ul>
+                        </div>
+                        <div class="col s4">
+                          <h5 id="embers">Deployment and Version Control</h5>
+                          <hr>
+                          <ul>
+                            <li>Git</li>
+                            <li>Heroku</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
 
-	   			<div id= "prof">
-	   				<img id="bio-image" src="profilepic.jpg" alt= "Profile Pic">
-	   			</div>
-	   			<div id="bio">
-	   				<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					<br><br>
-					There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-				</div>
-			</div>
+                    <div class="work">
+                      <h4 id="embers">Previous Work</h4>
+                      <hr>
+                      <a href="https://www.house.gov/" target="_blank"><h5 id="embers">U.S. House of Representatives</h5></a>
+                      <p class="left-align">Congressional Intern, Office of Congressman Barry Loudermilk (GA-11)</p>
+                      <a href="http://www.nu-tel.com/" target="_blank"><h5 id="embers">Nu-TEL Communications</h5></a>
+                      <p class="left-align">Technical Sales Associate</p>
+                      <a href="http://www.lexingtoninstitute.org/" target="_blank"><h5 id="embers">Lexington Institute</h5></a>
+                      <p class="left-align">Defense Research Intern</p>
+                      <a href="https://foreignaffairs.gov.mt/en/Embassies/Pr_New_York/Pages/Pr_New_York.aspx" target="_blank"><h5 id="embers">The Permanent Mission of the Republic of Malta to the United Nations</h5></a>
+                      <p class="left-align">Adviser</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
 
-			<div class="col-sm-4" id="container-right">
-				
-				<h3 id="title">Connect with Me</h3>
+        </div>
 
-				<div id="github">
-					<a href= "https://github.com/nciccarino" target= "_blank"><img id="github" src= "assets/images/githublogo.png"></a>
-				</div>
+      </div>
+      <!-- stop -->
 
-				<div id="linkedin">
-					<a href= "https://www.linkedin.com/in/nickciccarino/" target= "_blank">
-					<img id="linkedin" src="assets/images/linkedinlogo.png" alt="linkedin"></a>
-				</div>
+    </div>
 
-				<div id="stackoverflow">
-					<a href= "http://stackoverflow.com/users/7891581/nick-ciccarino" target= "_blank">
-					<img id="stackoverflow" src="assets/images/stackoverflowlogo.png" alt="stackoverflow"></a>
-				</div>
+  </div>
 
-			</div>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Technology Meets Public Policy</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/dc.jpg" alt="dc"></div>
+  </div>
 
-		</div>
-		</main>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 id="embers">Portfolio</h4>
+          <hr>
+        </div>
+      </div>
 
-		<div class= "row">
-			
-			<div class="col-sm-12" id="footer">
-				<h4 id="line">© 2017 Nick Ciccarino</h4>
-			</div>
+      <div class="row">
+        <div class="col s12 center">
+          <p class="center-align light">Here are some of my favorite projects! Feel free to test them and create your own accounts.</p>
+        </div>
+      </div>
 
-		</div>
+      <div class="row">
+        <div class="col s6">
+          <div class="icon-block">
+            <h5 class="center" id="embers">Watchlist</h5>
+            <a href="https://personalwatchlist.herokuapp.com/" target= "_blank"><img id="portfolio-images" align="middle" src="images/3.png" alt="watchlist"></a>
+            <p class="center-align light">Watchlist is a movie/series/video game organizer. Users can set their content based on categories and personalized notes.</p>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="icon-block">
+            <h5 class="center" id="embers">MyTix (Beta)</h5>
+            <a href="https://github.com/nciccarino/myTix4" target= "_blank"><img id="portfolio-images" align="middle" src="images/mytix.PNG" alt="mytix"></a>
+            <p class="center-align light">Built in React, MyTix is an event generation app which allows users to customize local events, produce a link for customers to purchase tickets, and keep track of their sales.</p>
+          </div>
+        </div>
+      </div>
 
-	</div>
+      <div class="row">
+        <div class="col s12 center">
+          <p class="center-align light">A complete list of my projects can be found on my GitHub page.</p>
+        </div>
+      </div>
 
-</body>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Utilizing Multiple Technologies Throughout Various Projects</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/grandtetons.jpg" alt="grandtetons"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h4 id="embers">Connect With Me</h4>
+          <hr>
+        </div>
+      </div>
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="https://github.com/nciccarino" target= "_blank"><img id="icon-logo" align="middle" src="images/githublogo.png" alt="github"></a>
+            <h5 class="center" id="embers">GitHub</h5>
+            <p class="light">Check out my code for some of my current and previous projects</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="https://www.linkedin.com/in/nickciccarino/" target= "_blank"><img id="icon-logo" align="middle" src="images/linkedinlogo.png" alt="LinkedIn"></a>
+            <h5 class="center" id="embers">LinkedIn</h5>
+            <p class="light">Browse my professional profile and connect with me</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="http://stackoverflow.com/users/7891581/nick-ciccarino" target= "_blank"><img id="icon-logo" align="middle" src="images/stackoverflowlogo.png" alt="stackoverflow"></a>
+            <h5 class="center" id="embers">Stack Overflow</h5>
+            <p class="light">See how I think when approacing coding problems</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Feel Free to Contact for Inquiries</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/yos.jpg" alt="yos"></div>
+  </div>
+
+  <footer class="page-footer" id= "footerContainer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Nick Ciccarino</h5>
+          <p class="grey-text text-lighten-4">Full Stack Web Developer</p>
+          <p class="grey-text text-lighten-4">Email: nciccarino@gmail.com</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/nciccarino" target= "_blank">GitHub</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/nickciccarino/" target= "_blank">LinkedIn</a></li>
+            <li><a class="grey-text text-lighten-3" href="http://stackoverflow.com/users/7891581/nick-ciccarino" target= "_blank">Stack Overflow</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Copyright Nick Ciccarino
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/index.js"></script>
+
+  </body>
 </html>
