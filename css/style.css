@@ -59,6 +59,7 @@ footer.page-footer {
 
 .nav-wrapper {
   background-color: black; 
+  font-family: 'Acme', sans-serif;
 }
 
 #sideCol {
@@ -117,6 +118,7 @@ footer.page-footer {
 
 #embers {
   color: #B82601;
+  font-family: 'Acme', sans-serif;
 }
 
 #portfolio-images {
