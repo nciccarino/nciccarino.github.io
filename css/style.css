@@ -118,5 +118,37 @@ footer.page-footer {
   width: 100%;
 }
 
+/*MEDIA QUERIES*/
 
+@media only screen and (max-width: 430px) {
+  nav ul a,
+  nav .brand-logo {
+    font-size: 25px;
+    margin-left: 0; 
+  }
+
+  #sideColCollection {
+    font-size: 12px; 
+  }
+
+  .s4 > #embers {
+    font-size: 15px; 
+  }
+}
+
+/*iPad horizontal and vertical*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/*iPad Pro Horizontal and Vertical*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
 
